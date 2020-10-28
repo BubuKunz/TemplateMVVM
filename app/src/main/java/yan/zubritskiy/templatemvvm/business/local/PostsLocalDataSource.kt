@@ -2,7 +2,6 @@ package yan.zubritskiy.templatemvvm.business.local
 
 import kotlinx.coroutines.flow.Flow
 import yan.zubritskiy.templatemvvm.business.model.Post
-import yan.zubritskiy.templatemvvm.business.model.User
 
 interface PostsLocalDataSource {
 

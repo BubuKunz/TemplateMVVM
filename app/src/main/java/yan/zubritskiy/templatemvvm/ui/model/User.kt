@@ -1,4 +1,4 @@
-package yan.zubritskiy.templatemvvm.framework.model
+package yan.zubritskiy.templatemvvm.ui.model
 
 data class User(
     val id: String,

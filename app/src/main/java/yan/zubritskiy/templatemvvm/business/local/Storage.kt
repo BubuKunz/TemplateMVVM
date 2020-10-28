@@ -1,4 +1,4 @@
-package com.pfm.data.common.storage
+package yan.zubritskiy.templatemvvm.business.local
 
 import kotlinx.coroutines.flow.Flow
 

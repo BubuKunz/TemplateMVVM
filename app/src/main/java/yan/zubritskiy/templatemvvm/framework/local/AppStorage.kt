@@ -8,10 +8,10 @@ import android.app.backup.SharedPreferencesBackupHelper
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
-import com.pfm.data.common.storage.Storage
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import yan.zubritskiy.templatemvvm.business.local.Storage
 import yan.zubritskiy.templatemvvm.framework.utils.DeviceUuidFactory
 import yan.zubritskiy.templatemvvm.framework.utils.JsonConverter
 import java.util.*
