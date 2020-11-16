@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment"
+    android:id="@+id/main_graph">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="yan.zubritskiy.templatemvvm.ui.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="yan.zubritskiy.templatemvvm.ui.main.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="yan.zubritskiy.templatemvvm.ui.main.SettingsFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
